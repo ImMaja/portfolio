@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'KingRomance';
+    src: url('fonts/TheKingOfRomance.eot');
+    src: url('fonts/TheKingOfRomance.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TheKingOfRomance.woff') format('woff'),
+        url('fonts/TheKingOfRomance.svg#TheKingOfRomance') format('svg');
+}
+
+
+
 *{
   background-color: rgb(224, 224, 193);
+}
+
+#nom{
+  font-family: "KingRomance";
+  font-size: 70px;
+  font-style: italic;
+  font-weight: lighter;
+
+  margin-top: 30px;
+  margin-left: 30px;
 }
